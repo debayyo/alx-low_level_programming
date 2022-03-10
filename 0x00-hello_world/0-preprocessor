@@ -1,0 +1,2 @@
+#!/bin/bash
+$C0-PREPROCESSOR.c <0-PREPROCESSOR.O 
