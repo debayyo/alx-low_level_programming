@@ -1,7 +1,7 @@
 #include "stdio.h"
 
 /** 
- * main - print_alphabet - prints alphabet
+ * print_alphabet - prints alphabet
  */
 void print_alphabet(void)
 {
@@ -9,5 +9,5 @@ void print_alphabet(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 		_putchar(c);
-	_putchar('\n');
+	putchar('\n');
 }
