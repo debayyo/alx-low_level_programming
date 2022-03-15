@@ -1,15 +1,14 @@
 #include "stdio.h"
 /**
  * print_alphabet - prints the alphabet, in lowercase, followed by a new line
- *
+ * @q is the argument tested
  * Return: 0 
  */
-
 void print_alphabet(void);
 {
-	char alpha;
+	char q;
 
-	for (alpha ='a'; alpha <= 'z': alpha++)
+	for (q ='a'; q <= 'z'; q++)
 	{
 		_putchar(alpha);
 	}
