@@ -1,6 +1,7 @@
 #include "putchar.h"
+#include "putchar.c"
 /**
- * main - prints Putchar.c
+ * main - prints Putchar
  * Return: 0
  */
 int main(void)
