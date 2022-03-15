@@ -1,16 +1,18 @@
-#include "stdio.h"
+#include "main.h"
 /**
- * print_alphabet - prints the alphabet, in lowercase, followed by a new line
- * @q is the argument tested
- * Return: 0 
+ * print_alphabet- prints alphabet in
+ * lower case
+ * @k is the argument tested
+ *
+ * Return: 0
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	char q;
+	char k;
 
-	for (q ='a'; q <= 'z'; q++)
+	for (k = 'a'; k <= 'z'; k++)
 	{
-		_putchar(alpha);
+		_putchar(k);
 	}
 	_putchar('\n');
 }
