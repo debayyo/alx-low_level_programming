@@ -1,5 +1,6 @@
-#include "alphabet.c"
+#include "1-alphabet.c"
 /**
+ * main 
  * print_alphabet - prints alphabet
  */
 void print_alphabet(void)
