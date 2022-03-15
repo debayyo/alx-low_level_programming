@@ -1,6 +1,6 @@
-#include "putchar.c"
+#include "putchar.h"
 /**
- * main - prints Putchar
+ * main - prints Putchar.c
  * Return: 0
  */
 int main(void)
