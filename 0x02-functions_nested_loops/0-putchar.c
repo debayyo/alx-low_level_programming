@@ -1,10 +1,11 @@
 #include "putchar.h"
 /**
- * main - prints Putchar
+ * main - prints _Putchar
  * Return: 0
  */
 int main(void)
 {
+	_putchar('_');
 	_putchar('P');
 	_putchar('u');
 	_putchar('t');
