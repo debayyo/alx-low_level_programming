@@ -1,7 +1,7 @@
-#include "main.h"
+#include "stdio.h"
 
 /**
- * main - prints School, followed by a new line
+ * main - prints _putchar, followed by a new line
  * Return: 0
  */
 int main(void)
