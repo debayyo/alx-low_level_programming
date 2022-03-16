@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - prints School, followed by a new line.
- * Return: Always 0 (success)
+ * main - prints School, followed by a new line
+ * Return: 0
  */
 int main(void)
 {
