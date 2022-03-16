@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main - times_table - prints tables
  *
