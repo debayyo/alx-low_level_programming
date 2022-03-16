@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10- print 10x the alphabet
+ * print_alphabet_x10 - print alphabet
  *
- * Return: 0 when succesful
+ * Return: Always 0.
  */
 void print_alphabet_x10(void);
 {
@@ -16,11 +16,11 @@ while (count < 10)
 {
 for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
 {
-putchar(alphabet);
+_putchar(alphabet);
 }
 
 count++;
-putchar('\n');
+_putchar('\n');
 }
 
 
