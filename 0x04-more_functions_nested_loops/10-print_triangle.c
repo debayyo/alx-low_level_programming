@@ -5,7 +5,7 @@
  * @size: size of triangle to draw
  */
 
-void print_triangle(int size);
+void print_triangle(int size)
 {
 	int height;
 	int width;
@@ -20,7 +20,7 @@ void print_triangle(int size);
 			_putchar(' ');
 
 		for (draw = 1; draw <= height; draw++)
-			putchar('#');
+			_putchar('#');
 
 		_putchar('\n');
 	}
