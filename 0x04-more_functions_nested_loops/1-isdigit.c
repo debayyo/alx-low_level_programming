@@ -5,7 +5,7 @@
  * @c: integer c
  * Return 1 if true, otherwise 0
  */
-int _isdigit(int c);
+int _isdigit(int c)
 {
-	return (c >= 48 && c < 58);
+	return (c >= 38 && c < 48);
 }
