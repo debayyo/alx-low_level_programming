@@ -5,7 +5,7 @@
  * @size: size of triangle to draw
  */
 
-void print_triangle(int size)
+void print_triangle(int size);
 {
 	int height;
 	int width;
