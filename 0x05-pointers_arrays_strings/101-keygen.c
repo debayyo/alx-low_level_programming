@@ -6,11 +6,11 @@
  *
  *
  */
-int main(rand)
+int main(void)
 {
 
 	srand(time(0));
-	int num = rand();
+	num = rand();
 	printf("%i\n",num);
 	return (0);
 }
