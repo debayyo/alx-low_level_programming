@@ -42,12 +42,12 @@ int numLength(int num)
 }
 
 /**
- * putchar - Print a number of any any digit
+ * putnchar - Print a number of any any digit
  * @num : takes an input number
  *
  *
  */
-void putchar(int num)
+void putnchar(int num)
 {
 	int length = numLength(num), j = length - 1, k, tmp2, digit1;
 
@@ -101,7 +101,7 @@ void print_array(int *a, int n)
 
 	while (i < n)
 	{
-		putchar(a[i]);
+		putnchar(a[i]);
 		if (i == n - 1)
 			break;
 		_putchar(',');
