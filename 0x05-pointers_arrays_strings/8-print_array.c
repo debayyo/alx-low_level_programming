@@ -26,7 +26,7 @@ int numLength(int num)
 {
 	int length = 0;
 
-	if (! num)
+	if (!num)
 	{
 		return (1);
 	}
