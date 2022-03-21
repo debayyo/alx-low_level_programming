@@ -6,11 +6,11 @@
  *
  *
  */
-int main(void)
+int main(rand)
 {
 
-srand(time(0));
-int num = rand();
-printf("%i\n",num);
-return (0);
+	srand(time(0));
+	int num = rand();
+	printf("%i\n",num);
+	return (0);
 }
