@@ -5,7 +5,7 @@
  * @s: string to be passed
  * Return: capitalized string
  */
-char *string_toupper(char *s)
+char *string_toupper(char *)
 {
 	char *ptr = s;
 
