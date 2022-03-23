@@ -1,19 +1,20 @@
 #include "main.h"
 
 /**
- * string_toupper - changes all lowercase letters of a string to uppercase
- * @s: string to be passed
- * Return: capitalized string
+ * string_toupper - capitalize all letters in string
+ * @s: string to manipulate
+ * Return: string with all letters capitalized
  */
-char *string_toupper(char *)
-{
-	char *ptr = s;
 
-	while (*s)
+char *string_toupper(char *s)
+{
+
+	int i = 0;
+
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (*s >= 97 && *s <= 122)
-			*s -= 32;
-		s++;
+		if (s[i] >= 'a' && s[i] <= 'z')
+			s[i] = s[i] - 'a' + 'A';
 	}
-	return (ptr);
+	return (s);
 }
